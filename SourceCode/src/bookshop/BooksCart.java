@@ -348,7 +348,7 @@ public class BooksCart extends javax.swing.JFrame {
                 if(rs>0  && rs2>0)
                 {
                     JOptionPane.showMessageDialog(this,"Payment Successful");
-                    DashboardPage_Employee d = new DashboardPage_Employee();
+                    DashboardPage_Buyer d = new DashboardPage_Buyer();
                     this.hide();
                     d.setVisible(true);
                 }
